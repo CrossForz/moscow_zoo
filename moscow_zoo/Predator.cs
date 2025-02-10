@@ -1,6 +1,9 @@
 namespace moscow_zoo;
 
-public class Predator
+public class Predator : Animal
 {
-    
+    public Predator(int food)
+    {
+        Food = food;
+    }
 }
