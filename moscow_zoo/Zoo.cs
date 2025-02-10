@@ -7,7 +7,7 @@ public class Zoo
 
     public void AddAnimal(Animal animal)
     {
-        if (_clinic.CheckHealth(animal) && !(_animals.Contains(animal)))
+        if (_clinic.CheckHealth(animal))
         {
             _animals.Add(animal);
             Console.WriteLine($"The animal {animal.GetType().Name} is added to the clinic");
