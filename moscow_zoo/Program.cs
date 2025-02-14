@@ -5,6 +5,7 @@ namespace moscow_zoo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Masha is zyek");
             Console.WriteLine("Hello World!");
 
             var services = new ServiceCollection()
